@@ -1,9 +1,12 @@
-# # Claude, Gemini, Cursor, Kiroの設定ルール
-# GEMINI.md
-# .cursor/
-# .kiro/
-# .aiignore
-# .cursorignore
+# CLAUDE.md はClaude Codeが自動認識するため追跡する
+# 以下は不要なファイルの除外ルール
 
-# # 共通ドキュメント
-# /AI/COMMON/*.md
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
