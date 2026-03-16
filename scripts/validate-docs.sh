@@ -3,6 +3,7 @@ set -euo pipefail
 
 # ドキュメントのYAML frontmatterを検証するスクリプト
 # 対象: docs/adr/, docs/spec/, docs/research/ 配下の .md ファイル（_template.md を除く）
+# 除外: docs/steering/ はfrontmatterなしの常時参照ドキュメントのため検証対象外
 
 VALID_STATUSES="wip accepted archive"
 ERRORS=0
